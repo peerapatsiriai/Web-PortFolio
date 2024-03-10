@@ -22,26 +22,27 @@ const about = () => {
               <article className='about__card'>
                 <FaAward className='about__icon'/> 
                 <h4>Experience</h4>
-                <small>3+ Year Working</small>
+                <small>3+ Year Programmer</small>
               </article>
 
               <article className='about__card'>
                 <FiUser className='about__icon'/> 
                 <h4>Clients</h4>
-                <small>200+ Worldwide</small>
+                <small>10+ people Thailand</small>
               </article>
 
               <article className='about__card'>
                 <VscFolderLibrary className='about__icon'/> 
                 <h4>Projects</h4>
-                <small>80+ Completed</small>
+                <small>3 Completed</small>
               </article>
             </div>
 
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum. Quod numquam 
-              laboriosam reiciendis molestiae quae ullam officia impedit. Labore dicta laboriosam 
-              architecto facilis veniam assumenda error voluptatum officiis necessitatibus!
+            Graduates in computer engineering who are very responsible 
+            and ready to learn new things all the time, 
+            are patient and socialize well. 
+            Looking for a developer job? Ready to put in the effort and use your talents to make your company a success
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let't Talk</a>
