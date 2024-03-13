@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo' >EGATOR</a>
+      <a href="#" className='footer__logo' >PEERAPAT</a>
 
 
       <ul className='permalinks'>
