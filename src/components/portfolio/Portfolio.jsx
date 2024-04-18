@@ -18,7 +18,17 @@ const Portfolio = () => {
           <h3>Projecm-MGT-RMUTL</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/peerapatsiriai/Project-MGT-Back-end" className='btn'  target='_blank' rel="noreferrer">Github</a>
-            <a href="/" className='btn btn-primary'  target='_blank' rel="noreferrer">View</a>
+            <a href="http://128.199.147.134:3003/" className='btn btn-primary'  target='_blank' rel="noreferrer">View</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio-item-image">
+            <img src={IMG3} alt="" />
+          </div>
+          <h3>Personal Chat App</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/peerapatsiriai/Chat-App" className='btn'  target='_blank' rel="noreferrer">Github</a>
+            <a href="http://13.212.11.103:3001/login" className='btn btn-primary'  target='_blank' rel="noreferrer">View</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -31,16 +41,7 @@ const Portfolio = () => {
             <a href="/" className='btn btn-primary' target='_blank' rel="noreferrer">View</a>
           </div>
         </article>
-        <article className='portfolio__item'>
-          <div className="portfolio-item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Personal Chat App</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/peerapatsiriai/Chat-App" className='btn'  target='_blank' rel="noreferrer">Github</a>
-            <a href="/" className='btn btn-primary'  target='_blank' rel="noreferrer">View</a>
-          </div>
-        </article>
+
       </div>
     </section>
     </>
