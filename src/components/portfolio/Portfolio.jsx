@@ -37,7 +37,7 @@ const Portfolio = () => {
           </div>
           <h3>Book Store Project</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/watchana/TCTM-Marketplace" className='btn'  target='_blank' rel="noreferrer">Github</a>
+            <a href="https://bitbucket.org/my-workshop/book_shop_back_end/src/main/" className='btn'  target='_blank' rel="noreferrer">Github</a>
             <a href="http://13.212.11.103:3004/" className='btn btn-primary' target='_blank' rel="noreferrer">View</a>
           </div>
         </article>
