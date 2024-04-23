@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/TCTM.png'
+import IMG1 from '../../assets/book.png'
 import IMG2 from '../../assets/Project-mgt.png'
 import IMG3 from '../../assets/Chat.png'
 
@@ -35,10 +35,10 @@ const Portfolio = () => {
           <div className="portfolio-item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>TCTM Market Place</h3>
+          <h3>Book Store Project</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/watchana/TCTM-Marketplace" className='btn'  target='_blank' rel="noreferrer">Github</a>
-            <a href="/" className='btn btn-primary' target='_blank' rel="noreferrer">View</a>
+            <a href="http://13.212.11.103:3004/" className='btn btn-primary' target='_blank' rel="noreferrer">View</a>
           </div>
         </article>
 
