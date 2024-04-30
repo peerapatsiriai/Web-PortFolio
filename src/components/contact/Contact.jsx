@@ -1,10 +1,24 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './contact.css'
 import {MdOutlineEmail} from'react-icons/md'
 import {RiMessengerLine} from'react-icons/ri'
 import {BsWhatsapp} from'react-icons/bs'
+import Swal from 'sweetalert2'
 
 const contact = () => {
+
+  const Onsubmit = () => {
+    Swal.fire({
+      title: "Something went wrong",
+      icon: "error",
+      showConfirmButton: false,
+      iconColor: "#4287f5",
+      background: "#131324",
+      color: "#ffffff",  
+      text: "Error while sending message to gmail",
+    });
+  }
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -32,7 +46,7 @@ const contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTION */}
-        <form action=''>
+        <form action='' onSubmit={Onsubmit}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Full Email' required />
           <textarea name='message' rows="7" placeholder='Your Message' required></textarea>
