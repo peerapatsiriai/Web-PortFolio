@@ -17,6 +17,7 @@ const contact = () => {
       color: "#ffffff",  
       text: "Error while sending message to gmail",
     });
+    alert("Error while sending message to gmail")
   }
 
   return (
