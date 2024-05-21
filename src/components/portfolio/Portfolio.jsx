@@ -15,7 +15,7 @@ const Portfolio = () => {
           <div className="portfolio-item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Projecm-MGT-RMUTL</h3>
+          <h3>Project-MGT-RMUTL</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/peerapatsiriai/Project-MGT-Back-end" className='btn'  target='_blank' rel="noreferrer">Github</a>
             <a href="http://128.199.147.134:3003/" className='btn btn-primary'  target='_blank' rel="noreferrer">View</a>
